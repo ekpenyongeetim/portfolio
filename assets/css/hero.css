@@ -1,0 +1,33 @@
+@import url("variable.css");
+
+.hero {
+  height: 87vh;
+  background-color: antiquewhite;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 20rem;
+  border-radius: 50%;
+}
+
+.bio {
+  margin-left: 15px;
+  max-width: 400px;
+}
+
+.social {
+  padding: 10px 0;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.social li:hover {
+  transform: scale(1.4);
+  z-index: 1;
+}
